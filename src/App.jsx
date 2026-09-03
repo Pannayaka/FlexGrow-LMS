@@ -48,7 +48,7 @@ const CURRENT_USER = {
   location: "Surakarta, ID",
   workMode: "Hybrid",
   careerGoal: "Senior Data Analyst",
-  avatarInitials: "SW",
+  avatarInitials: "SV",
   mobility: "Open to internal projects",
   availability: "6–8 hrs/week"
 };
@@ -58,7 +58,7 @@ const TEAM = [
   { id: "u-rizky", name: "Rizky Ramadhan", role: "Data Engineer", department: "Digital Technology", initials: "RR", learning: 88, competency: 82, gaps: ["Stakeholder Management"] },
   { id: "u-nadia", name: "Nadia Putri", role: "Product Analyst", department: "Digital Technology", initials: "NP", learning: 45, competency: 58, gaps: ["Python", "AI"] },
   { id: "u-bima", name: "Bima Santoso", role: "Data Analyst", department: "Digital Technology", initials: "BS", learning: 91, competency: 76, gaps: ["Communication"] },
-  { id: "u-anggun", name: "Anggun Valentine", role: "Data Analyst", department: "Digital Technology", initials: "SW", learning: 72, competency: 78, gaps: ["Advanced SQL"] },
+  { id: "u-anggun", name: "Anggun Valentine", role: "Data Analyst", department: "Digital Technology", initials: "AV", learning: 72, competency: 78, gaps: ["Advanced SQL"] },
 ];
 
 const COURSES = [
@@ -135,7 +135,7 @@ const COURSES = [
       { title: "Final Project: Sales Automation", minutes: 60 },
     ],
     careerRelevance: "Core requirement across the Data Analyst track.",
-    reviews: [{ name: "Anggun Valentine", rating: 5, text: "Directly automated our Monday sales report after finishing this." }],
+    reviews: [{ name: "Anggun", rating: 5, text: "Directly automated our Monday sales report after finishing this." }],
   },
   {
     id: "c-sc", title: "Strategic Communication", category: "Communication",
