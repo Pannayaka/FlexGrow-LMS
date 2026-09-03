@@ -39,13 +39,13 @@ const SKILL_LIBRARY = [
 ];
 
 const CURRENT_USER = {
-  id: "u-sarah",
-  name: "Sarah Wijaya",
+  id: "u-anggun",
+  name: "Anggun Valentine",
   role: "Data Analyst",
   department: "Digital Technology",
   level: "Level 2",
   tenure: "2 yrs 4 mos",
-  location: "Jakarta, ID",
+  location: "Surakarta, ID",
   workMode: "Hybrid",
   careerGoal: "Senior Data Analyst",
   avatarInitials: "SW",
@@ -58,7 +58,7 @@ const TEAM = [
   { id: "u-rizky", name: "Rizky Ramadhan", role: "Data Engineer", department: "Digital Technology", initials: "RR", learning: 88, competency: 82, gaps: ["Stakeholder Management"] },
   { id: "u-nadia", name: "Nadia Putri", role: "Product Analyst", department: "Digital Technology", initials: "NP", learning: 45, competency: 58, gaps: ["Python", "AI"] },
   { id: "u-bima", name: "Bima Santoso", role: "Data Analyst", department: "Digital Technology", initials: "BS", learning: 91, competency: 76, gaps: ["Communication"] },
-  { id: "u-sarah", name: "Sarah Wijaya", role: "Data Analyst", department: "Digital Technology", initials: "SW", learning: 72, competency: 78, gaps: ["Advanced SQL"] },
+  { id: "u-anggun", name: "Anggun Valentine", role: "Data Analyst", department: "Digital Technology", initials: "SW", learning: 72, competency: 78, gaps: ["Advanced SQL"] },
 ];
 
 const COURSES = [
@@ -135,7 +135,7 @@ const COURSES = [
       { title: "Final Project: Sales Automation", minutes: 60 },
     ],
     careerRelevance: "Core requirement across the Data Analyst track.",
-    reviews: [{ name: "Sarah Wijaya", rating: 5, text: "Directly automated our Monday sales report after finishing this." }],
+    reviews: [{ name: "Anggun Valentine", rating: 5, text: "Directly automated our Monday sales report after finishing this." }],
   },
   {
     id: "c-sc", title: "Strategic Communication", category: "Communication",
@@ -1013,7 +1013,7 @@ function Topbar({ user, role, setRole, page, navigate, notifications, setMobileO
    ------------------------------------------------------------------------- */
 
 function LoginPage({ onLogin }) {
-  const [email, setEmail] = useState("sarah.wijaya@flexgroup.co.id");
+  const [email, setEmail] = useState("anggun.valentine@flexgroup.co.id");
   const [password, setPassword] = useState("••••••••••");
 
   return (

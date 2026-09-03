@@ -16,7 +16,7 @@ Built with React + Vite + Tailwind CSS, using `lucide-react` for icons and `rech
 
 1. Sign in (any credentials work — it's a prototype).
 2. On the Employee Dashboard, open **Customer Data Dashboard** from Internal Gigs and click **Apply for Project**.
-3. Switch "Viewing as" to **Manager**, go to **Applications** (under Talent Mobility), and **Approve** Sarah's application.
+3. Switch "Viewing as" to **Manager**, go to **Applications** (under Talent Mobility), and **Approve** Anggun's application.
 4. Switch back to **Employee**, go to **My Projects**, and click **Mark Project Complete**.
 5. Check **My Portfolio** and the dashboard's Career Readiness ring — both update automatically.
 6. Also try: clicking **Continue** on a course in "Continue Learning" advances progress and, once it hits 100%, adds a new skill and a notification.
